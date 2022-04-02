@@ -37,24 +37,19 @@ body {
     letter-spacing: 0.02em;
     color: var(--color-title)
 }
-.header-mail, .header-tel {
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+.header-secondlink {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.43;
     letter-spacing: 0.02em;
     color: var(--color-text);
 }
-.header-link:hover,
-.header-link:focus {
-color: var(--accent-color);
-}
-
-.header-mail:hover,
-.header-mail:focus {
-    color: var(--accent-color);
-}
-.header-tel:hover,
-.header-tel:focus {
+.header-secondlink:hover,
+.header-secondlink:focus{
     color: var(--accent-color);
 }
 
@@ -146,3 +141,38 @@ color: var(--accent-color);
 }
 
 /*------------footer-----------*/
+.footer {
+    background-color: var(--footer-color)
+}
+.logo-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.92;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--accent-color)
+}
+
+.logo-white {
+    color: #FFFFFF;
+}
+.footer-address-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+    .footer-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
