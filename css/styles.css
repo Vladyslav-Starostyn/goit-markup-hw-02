@@ -1,0 +1,54 @@
+:root {
+    --footer-color: #2F303A;
+    --color-title: #212121;
+    --color-text: #757575;
+    --accent-color:#2196F3;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+
+.heder-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.02em;
+    color: var(--color-title)
+}
+.header-mail, .header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.02em;
+    color: var(--color-text);
+}
+.header-link:hover,
+.header-link:focus {
+color: var(--accent-color);
+}
+
+.header-mail:hover,
+.header-mail:focus {
+    color: var(--accent-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--accent-color);
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: var(--footer-color);
+}
