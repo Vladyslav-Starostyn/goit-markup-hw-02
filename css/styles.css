@@ -7,7 +7,6 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #E5E5E5;
 }
 .list {
     list-style: none;
@@ -15,7 +14,6 @@ body {
 .link {
     text-decoration: none;
 }
-
 /*----------- Header---------*/
 
 .header {
@@ -27,7 +25,6 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.92;
-    /* identical to box height */
     letter-spacing: 0.03em;
     color: var(--accent-color)
 }
@@ -56,7 +53,6 @@ body {
 .header-secondlink:focus{
     color: var(--accent-color);
 }
-
 /*------------section-1-----------*/
 
 .hero {
@@ -71,7 +67,7 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.hero-batton {
+.hero-button {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -85,7 +81,6 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
-
 /*------------section-2-----------*/
 
 /*.visually-hidden-скрывает заголовок*/
@@ -116,7 +111,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--color-text);
 }
-
 /*------------section-3-----------*/
 
 .activyti-title {
@@ -127,12 +121,8 @@ body {
     letter-spacing: 0.03em;
     color: var(--color-title)
 }
-
 /*------------section-4-----------*/
 
-.command {
-    background-color: #F5F4FA;
-}
 .command-title {
     font-weight: 700;
     font-size: 36px;
@@ -159,7 +149,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--color-text)
 }
-
 /*------------footer-----------*/
 .footer {
     background-color: var(--footer-color)
@@ -174,7 +163,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--accent-color)
 }
-
 .logo-white {
     color: #FFFFFF;
 }
@@ -196,4 +184,19 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+/*------------section------------*/
+.button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+.button:focus,
+.button:hover {
+    background-color: var(--accent-color);
 }
