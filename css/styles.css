@@ -187,7 +187,7 @@ color: var(--accent-color);
 .footer-link:focus {
 color: var(--accent-color);
 }
-/*------------section------------*/
+/*------------section-5------------*/
 .button {
     font-weight: 500;
     font-size: 16px;
@@ -201,4 +201,18 @@ color: var(--accent-color);
 .button:focus,
 .button:hover {
     background-color: var(--accent-color);
+    cursor: pointer;
+}
+.progects-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+    letter-spacing: 0.06em;
+    color: var(--color-title);
+}
+.progects-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--color-text);
 }
