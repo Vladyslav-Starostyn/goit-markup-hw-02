@@ -30,7 +30,10 @@ body {
     color: var(--accent-color)
 }
 .logo-black {
-    color: #000000;
+    color: #000000;   
+}
+.header-list .link.current {
+    color: var(--accent-color);
 }
 .header-link {
     font-weight: 500;
