@@ -7,6 +7,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    color: var(--color-text);
 }
 .list {
     list-style: none;
@@ -109,7 +110,6 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--color-text);
 }
 /*------------section-3-----------*/
 
@@ -146,7 +146,6 @@ body {
     /* identical to box height */
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--color-text)
 }
 /*------------footer-----------*/
 .footer {
@@ -188,7 +187,7 @@ color: var(--accent-color);
 color: var(--accent-color);
 }
 /*------------section-5------------*/
-.button {
+.progects-button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -198,8 +197,8 @@ color: var(--accent-color);
     background: #F5F4FA;
     border-radius: 4px;
 }
-.button:focus,
-.button:hover {
+.progects-button:focus,
+.progects-button:hover {
     background-color: var(--accent-color);
     cursor: pointer;
 }
@@ -214,5 +213,4 @@ color: var(--accent-color);
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: var(--color-text);
 }
